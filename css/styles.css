@@ -215,6 +215,17 @@ body{
         font-family: 'Mali', cursive;
         font-size: 2rem;
     }
+	@media (min-width: 700px){
+		.activ{
+			padding: 2rem;
+		} 
+		.card-text{
+			display: grid;
+			grid-template-columns: 2fr 1fr;
+		}
+		.text_activ > *{
+			padding: 2em;
+		}
 	/*foooter*/
 	.container img{
 		margin:0.5rem
