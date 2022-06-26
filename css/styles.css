@@ -1,0 +1,291 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Fascinate&family=Josefin+Sans&family=Mali:wght@300&family=Rubik+Moonrocks&display=swap');
+body{
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 400;
+}
+nav{
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: 800;
+}
+#banner{
+    position: relative;
+    background-image:url(../assets/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 350px;
+    height: 45vh;
+    text-shadow: 5ex;
+}
+#banner span{
+    position: absolute;
+    opacity: .8;
+    width:100%;
+    height: 100%;
+    display: block;
+}
+#banner .texto{
+   z-index: 2; 
+   margin-top: 100px;
+   -webkit-text-stroke: 0.5px black;
+   color: rgb(245, 238, 238); 
+
+}
+#banner .titulo{
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+@media all and (max-width:768px){
+#banner .titulo{
+   font-size: 2rem;
+   }
+}
+body{
+	background-image: url(../assets/fondo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+	height: auto;
+}
+#hero{
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+    
+}
+#hero .imagenes{
+    border-radius: 2.5rem;
+
+}
+.formulario{
+    text-align: center;
+    width: 100%;
+}
+/* Seccion Contacto*/
+	.conteiner_contacto{
+		max-width: 1000px;
+		margin-left: auto;
+		margin-right: auto;
+		padding: 2em;
+		background-color: grey;
+		margin-top: 2.5rem;
+		margin-bottom: 2.5rem;
+		border-radius: 1.5rem;
+	}
+	.titulo{
+		text-align: center;
+		font-size: 2em;
+		font-family: fantasy;
+	}
+	.contacto_wrapper{
+		box-shadow: 0 0 20px cyan;
+	}
+	.contacto_wrapper > * {
+		padding: 1em;
+	}
+	.contacto_form{
+		background: #d1cece;
+	}
+	.contacto_form form{
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+	}
+	.contacto_form form .block{
+		grid-column: 1 / 3;
+	}
+	.contacto_form form p{
+		margin: 0;
+		padding: 1em;
+	}
+
+	.contacto_form form button,
+	.contacto_form input,
+	.contacto_form textarea{
+		width: 100%;
+		padding: 7em;
+		border: none;
+		outline: 0;
+		border-bottom: 1px solid grey;
+		padding: 1em;
+	}
+	.contacto_form textarea{
+		height: 100px;
+	}
+	.contacto_form form button{
+		background: rgb(55, 173, 173);
+		color: aquamarine;
+		border: 0;
+		text-transform: uppercase;
+		padding: 1em;
+	}
+	.contacto_form form button:hover,
+	.contacto_form form button:focus{
+		background: rgb(28, 53, 53);
+	}
+	.contacto_info {
+		background:rgb(31 30 30 / 62%);
+		color: #d1cece;
+	}
+	.contacto_info h4{
+		text-align: center;
+		margin: 0 0 1rem 0;
+	}
+	.contacto_info p img{
+		padding: 1.5rem;
+		color: #d1cece;
+	}
+	/* Large Screen*/
+	@media (min-width: 700px){
+		.conteiner_contacto{
+			padding: 2rem;
+		} 
+		.contacto_wrapper{
+			display: grid;
+			grid-template-columns: 2fr 1fr;
+		}
+		.contacto_wrapper > *{
+			padding: 2em;
+		}
+	}
+	.b_contacto{
+		background-image: url(../assets/fondo.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;	
+	}
+	/*Seccion Galeria*/
+	.b_galeria{
+		background-image: url(../assets/fondo.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;	
+	}
+	#galeria h1{
+		font-family:'Fascinate', cursive;
+		font-size: 5rem;
+	}
+	#galeria p{
+		font-family: 'DM Sans', sans-serif;
+		font-size: 2rem;
+	}
+	#galeria .col-lg-4{
+		margin: 0;
+		padding: 25px; ;
+	}
+	#galeria img{
+		width: 100%;
+		height:250px ;
+
+	}
+	#galeria img:hover {
+		border: 5px solid #f7f7f7;
+
+	}
+	.maps{
+		background-color: beige;
+		border-radius: 3rem solid black;
+		margin: 2.5rem;
+		padding: 1px;
+		display: flex;
+		justify-content:space-evenly;
+		margin: auto;
+		margin-top: 2.5rem;
+	}
+	.maps img{
+		width: 100%;
+	}
+
+    /*Seccion actividades*/
+    .b_activ{
+        background-image: url(../assets/fondo.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .activ{
+        justify-content: space-between;
+        margin: 8rem 8rem;
+        text-align: center;
+    }
+    .card-text{
+        font-family: 'Rubik Moonrocks', cursive;
+        font-size: 3rem;
+    }
+    .text_activ{
+        font-family: 'Mali', cursive;
+        font-size: 2rem;
+    }
+	/*foooter*/
+	.container img{
+		margin:0.5rem
+	}
+	/*Seccion Agenda*/
+	.contenedor{
+		width: 90%;
+		margin: auto;
+		margin-top: 2.5rem;
+		margin-bottom: 2.5rem;
+		background: #fff;
+		max-width: 1200px;
+		box-shadow:0 2px 20px rgba(0,0,0,.1);
+		border-radius: 10px;
+		font-family: 'Josefin Sans', sans-serif;
+	}
+	.nombre_mes{
+		text-align: center;
+		color: #51565d;
+		font-weight: 400;
+		padding: 30px 0;
+		font-weight: 800;
+	}
+	.dias{
+		display: grid;
+		grid-template-columns: repeat(7,1fr);
+		place-items:center;
+		height: 45px;
+		border-bottom: 1px solid #a6a8b31f;
+		border-top: 1px solid #a6a8b31f;
+		color: #51565d;
+	}
+	.calendario{
+		display: grid;
+		grid-template-columns: repeat(7,1fr);
+		grid-auto-rows: 120px;
+	}
+	.calendario__dia{
+		border-bottom: 1px solid #a6a8b31f;
+		border-top: 1px solid #a6a8b31f;
+		border-left: 1px solid #a6a8b31f;
+		border-right: 1px solid #a6a8b31f;
+		padding: 14px 20px;
+		color: #51565d;
+	}
+	.calendario__dia1{
+		grid-column-start:3;
+		place-items:center;
+	}
+	.calendario__dia4,
+	.calendario__dia5{
+		background-color:rgb(224, 88, 88);
+	}
+	.calendario__dia24,
+	.calendario__dia25,
+	.calendario__dia26{
+		background-color: rgb(224, 88, 88);
+	}
+	.referencia{
+		margin: 0 auto;
+		padding: 10px;
+	}
+	.reser{
+		height: 15px;
+		width: 15px;
+		background-color:rgb(224, 88, 88);
+		border: black 1px solid;
+	}
+	.disp{
+		height: 15px;
+		width: 15px;
+		background-color:white;
+		border: black 1px solid;
+	}

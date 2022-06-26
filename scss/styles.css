@@ -1,0 +1,189 @@
+body {
+  background-image: url(../assets/fondo.png);
+  @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Mali:wght@300&family=Rubik+Moonrocks&display=swap');
+body{
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 400;
+}
+#banner{
+    position: relative;
+    background-image:url(../assets/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 350px;
+    height: 45vh;
+    text-shadow: 5ex;
+}
+#banner span{
+    position: absolute;
+    opacity: .8;
+    width:100%;
+    height: 100%;
+    display: block;
+}
+#banner .texto{
+   z-index: 2; 
+   margin-top: 100px;
+   -webkit-text-stroke: 0.5px black;
+   color: rgb(8, 8, 8); 
+}
+#banner .titulo{
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+@media all and (max-width:768px){
+#banner .titulo{
+   font-size: 2rem;
+   }
+}
+#hero{
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+    background-repeat: repeat;
+    background-size: repeat;
+    background-position: center;
+    
+}
+#hero .imagenes{
+    border-radius: 2.5rem;
+
+}
+.formulario{
+    text-align: center;
+    width: 100%;
+}
+/* Seccion Contacto*/
+	.conteiner_contacto{
+		max-width: 1000px;
+		margin-left: auto;
+		margin-right: auto;
+		padding: 2em;
+		background-color: grey;
+		margin-top: 2.5rem;
+		margin-bottom: 2.5rem;
+		border-radius: 1.5rem;
+	}
+	.titulo{
+		text-align: center;
+		font-size: 2em;
+	}
+	.contacto_wrapper{
+		box-shadow: 0 0 20px cyan;
+	}
+	.contacto_wrapper > * {
+		padding: 1em;
+	}
+	.contacto_form{
+		background: #d1cece;
+	}
+	.contacto_form form{
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+	}
+	.contacto_form form .block{
+		grid-column: 1 / 3;
+	}
+	.contacto_form form p{
+		margin: 0;
+		padding: 1em;
+	}
+
+	.contacto_form form button,
+	.contacto_form input,
+	.contacto_form textarea{
+		width: 100%;
+		padding: 7em;
+		border: none;
+		outline: 0;
+		border-bottom: 1px solid grey;
+		padding: 1em;
+	}
+	.contacto_form textarea{
+		height: 100px;
+	}
+	.contacto_form form button{
+		background: rgb(55, 173, 173);
+		color: aquamarine;
+		border: 0;
+		text-transform: uppercase;
+		padding: 1em;
+	}
+	.contacto_form form button:hover,
+	.contacto_form form button:focus{
+		background: rgb(28, 53, 53);
+	}
+	.contacto_info {
+		background:rgb(31 30 30 / 62%);
+	}
+	.contacto_info h4{
+		text-align: center;
+		margin: 0 0 1rem 0;
+	}
+	.contacto_info p img{
+		padding: 1.5rem;
+	}
+	/* Large Screen*/
+	@media (min-width: 700px){
+		.conteiner_contacto{
+			padding: 2rem;
+		} 
+		.contacto_wrapper{
+			display: grid;
+			grid-template-columns: 2fr 1fr;
+		}
+		.contacto_wrapper > *{
+			padding: 2em;
+		}
+	}
+	.b_contacto{
+		
+		
+	}
+	#galeria .col-lg-4{
+		margin: 0;
+		padding: 25px; ;
+	}
+	#galeria img{
+		width: 100%;
+		height:250px ;
+
+	}
+	#galeria img:hover {
+		border: 5px solid #f7f7f7;
+
+	}
+	.maps{
+		background-color: beige;
+		margin-top: 5rem;
+		margin-bottom: 5rem;
+		margin-right: 5rem;
+		margin-left: 5rem;
+		padding: 50px;
+		display: flex;
+		text-align: center;
+		justify-content: space-between
+	}
+    /*Seccion actividades*/
+    .b_activ{
+        background-image: url(../assets/fondo.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .activ{
+        justify-content: space-between;
+        margin: 8rem 8rem;
+        text-align: center;
+    }
+    .card-text{
+        font-family: 'Rubik Moonrocks', cursive;
+        font-size: 3rem;
+    }
+    .text_activ{
+        font-family: 'Mali', cursive;
+        font-size: 2rem;
+    }
+}
+/*# sourceMappingURL=styles.css.map */
