@@ -182,14 +182,15 @@ body{
 
 	}
 	.maps{
-		background-color: beige;
-		border-radius: 3rem solid black;
+		background-color: beige 0.02;
+		border-radius: 2.5rem;
 		margin: 2.5rem;
 		padding: 1px;
 		display: flex;
 		justify-content:space-evenly;
 		margin: auto;
 		margin-top: 2.5rem;
+		width: 90%;
 	}
 	.maps img{
 		width: 100%;
@@ -201,35 +202,29 @@ body{
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
-		width: 100%;
     }
     .activ{
-        justify-content: space-between;
-        margin: 8rem 8rem;
+        justify-content: space-evenly;
+        margin: 0 auto;
         text-align: center;
 		width: 100%;
+		margin: 5px;
+		pad: 5px;
     }
     .card-text{
         font-family: 'Rubik Moonrocks', cursive;
-        font-weight: 400;
-		width: 100%;
+        font-size: 3rem;
+		font-weight: 100%;
     }
     .text_activ{
         font-family: 'Mali', cursive;
-        font-size: 1rem;
+        font-size: 2rem;
+		font-weight: 100%;
     }
-	@media (min-width: 700px){
-		.activ{
-			padding: 2rem;
-		} 
-		.card-text{
-			font-size: 1rem;
-		}
-		.text_activ{
-			font-size: 0.25rem;
-		}
-		
-		}
+	.card{
+		margin: 5px;
+	}
+
 	/*foooter*/
 	.container img{
 		margin:0.5rem
