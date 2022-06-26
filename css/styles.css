@@ -201,30 +201,34 @@ body{
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
+		width: 100%;
     }
     .activ{
         justify-content: space-between;
         margin: 8rem 8rem;
         text-align: center;
+		width: 100%;
     }
     .card-text{
         font-family: 'Rubik Moonrocks', cursive;
-        font-size: 3rem;
+        font-weight: 400;
+		width: 100%;
     }
     .text_activ{
         font-family: 'Mali', cursive;
-        font-size: 2rem;
+        font-size: 1rem;
     }
 	@media (min-width: 700px){
 		.activ{
 			padding: 2rem;
 		} 
 		.card-text{
-			display: grid;
-			grid-template-columns: 2fr 1fr;
+			font-size: 1rem;
 		}
-		.text_activ > *{
-			padding: 2em;
+		.text_activ{
+			font-size: 0.25rem;
+		}
+		
 		}
 	/*foooter*/
 	.container img{
